@@ -15,7 +15,3 @@ Le projet est composé de trois fichiers principaux :
 Pour utiliser ce système de licence, vous devez d'abord avoir un fichier texte nommé `txt.reg` contenant la clé d'activation. Si le fichier n'existe pas , le programme affichera "Erreur lors du lecture de la clé" et entrera en mode d'essai, de même si la clé ne correspond pas à celle attendue (`keyTest` dans le code).
 
 En mode d'essai, le nombre de tentatives d'activation est limité par le fichier `try.txt`. Chaque tentative réduit le nombre de tentatives restantes par 1. Si toutes les tentatives sont épuisées, le programme affiche "Acheter la licence".
-
-## Compilation
-
-Pour compiler le programe, executer les scriptes run.sh puis deplacer le fichier `lib/libActivation.so` dans `/usr/local/lib`
